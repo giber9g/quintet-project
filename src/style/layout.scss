@@ -1,3 +1,45 @@
-h1 {
-    font-size: 50px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 100px 0px 100px;
+  align-items: center;
+  font-family: "Nanum Gothic", sans-serif;
+
+  .logo_header {
+    width: 70px;
+  }
+
+  .phone_menu_img {
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    width: 900px;
+    top: -45px;
+    left: 280px;
+  }
+
+  .main_ul_header {
+    ul {
+      display: flex;
+      gap: 60px;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      position: relative;
+    }
+  }
+  button {
+    background: rgb(139, 119, 205);
+    border: none;
+    color: white;
+    font-size: 17px;
+    padding: 20px 45px;
+    border-radius: 5px;
+  }
 }

@@ -1,6 +1,13 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 
+# цвета лолго
+# rgb(139,119,205) - фиол
+# rgb(141,205,244) - центр
+# rgb(162,235,255) - голубой 
+
+
+
 # __________________________________
 # git pull
 # git add .
