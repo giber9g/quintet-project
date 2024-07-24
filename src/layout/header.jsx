@@ -1,36 +1,36 @@
 import React from "react";
 import logo_header from "../img/header/logo_header.png";
-import phone_menu_img from "../img/header/header_phone_menu.jpg";
 
 const Header = () => {
   return (
     <div className="header">
       <div>
-        <img className="phone_menu_img" src={phone_menu_img} alt="Фон меню" />
-
         <img className="logo_header" src={logo_header} alt="Логотип Quintet" />
       </div>
-      <div className="main_ul_header">
-        <ul>
-          <li>
-            <a href="#">Услуги</a>
-          </li>
-          <li>
-            <a href="#">Цены</a>
-          </li>
-          <li>
-            <a href="#">Портфолио</a>
-          </li>
-          <li>
-            <a href="#">Контакты</a>
-          </li>
-        </ul>
+      <div className="nav">
+        <nav>
+          <ul>
+            <li>
+              <a href="#">Услуги</a>
+            </li>
+            <li>
+              <a href="#">Цены</a>
+            </li>
+            <li>
+              <a href="#">Портфолио</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div className="info_header">
+        <p className="info_header_time_work">Ежденевно с 10:00 до 22:00</p>
+        <p className="info_header_number">+7(927)450-11-21</p>
       </div>
       <div>
-        <p>+7(927)450-11-21</p>
-      </div>
-      <div>
-        <button>Связь</button>
+        <button>Заполнить анкету</button>
       </div>
     </div>
   );

@@ -3,22 +3,13 @@
   justify-content: space-between;
   padding: 30px 100px 0px 100px;
   align-items: center;
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: Montserrat;
 
   .logo_header {
-    width: 70px;
+    width: 75px;
   }
 
-  .phone_menu_img {
-    display: flex;
-    position: absolute;
-    z-index: -1;
-    width: 900px;
-    top: -45px;
-    left: 280px;
-  }
-
-  .main_ul_header {
+  .nav {
     ul {
       display: flex;
       gap: 60px;
@@ -29,17 +20,29 @@
     }
 
     a {
-      color: white;
       text-decoration: none;
-      position: relative;
+
+      font-weight: 800;
+      color: black;
     }
   }
+
+  .info_header {
+    font-weight: 900;
+    color: rgb(93, 77, 237);
+
+    .info_header_number {
+      text-align: right;
+    }
+  }
+
   button {
-    background: rgb(139, 119, 205);
+    background: rgb(93, 77, 237);
     border: none;
     color: white;
     font-size: 17px;
     padding: 20px 45px;
     border-radius: 5px;
+    font-weight: 700;
   }
 }
