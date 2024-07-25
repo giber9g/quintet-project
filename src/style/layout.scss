@@ -3,13 +3,18 @@
   justify-content: space-between;
   padding: 30px 100px 0px 100px;
   align-items: center;
-  font-family: Montserrat;
 
   .logo_header {
     width: 75px;
   }
 
+  .txt_logo {
+    font-weight: 500;
+    color: rgb(93, 77, 237);
+  }
+
   .nav {
+    ///
     ul {
       display: flex;
       gap: 60px;
@@ -21,7 +26,6 @@
 
     a {
       text-decoration: none;
-
       font-weight: 800;
       color: black;
     }
@@ -44,5 +48,96 @@
     padding: 20px 45px;
     border-radius: 5px;
     font-weight: 700;
+  }
+}
+
+.main_section {
+  ///
+  padding: 120px 200px 50px 200px;
+  display: flex;
+  justify-content: space-between;
+
+  h1 {
+    font-weight: 900;
+    padding: 100px 0px 20px 0px;
+    span {
+      color: rgb(93, 77, 237);
+    }
+  }
+
+  p {
+    padding: 0px 123px 20px 0px;
+    text-align: right;
+  }
+
+  p span {
+    color: white;
+    background: rgb(93, 77, 237);
+    padding: 0px 10px;
+  }
+
+  button {
+    padding: 20px 234px;
+    background: rgb(93, 77, 237);
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+  }
+
+  .img_main_section {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+
+    img {
+      width: 400px;
+      border-radius: 15px;
+    }
+  }
+}
+
+.z_index {
+  .line_main_section_1 {
+    position: fixed;
+    z-index: -9999;
+
+    img {
+      top: -820px;
+      left: -100px;
+      position: absolute;
+      width: 250xp;
+      transform: rotate(-40deg);
+
+      height: 250px;
+    }
+  }
+
+  .line_main_section_2 {
+    position: absolute;
+    z-index: -9999;
+    img {
+      position: absolute;
+      transform: rotate(30deg);
+      top: -400px;
+      left: 1530px;
+      width: 400xp;
+      height: 400px;
+    }
+  }
+
+  .blure_1 {
+    position: absolute;
+    z-index: -9999;
+    img {
+      position: absolute;
+      transform: rotate(-90deg);
+      top: -790px;
+      left: 1500px;
+      width: 400xp;
+      height: 400px;
+      opacity: 0.5;
+    }
   }
 }

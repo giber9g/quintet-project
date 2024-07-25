@@ -5,7 +5,16 @@ const Header = () => {
   return (
     <div className="header">
       <div>
-        <img className="logo_header" src={logo_header} alt="Логотип Quintet" />
+        <div>
+          <img
+            className="logo_header"
+            src={logo_header}
+            alt="Логотип Quintet"
+          />
+        </div>
+        <div>
+          <p className="txt_logo">QUINTET</p>
+        </div>
       </div>
       <div className="nav">
         <nav>
